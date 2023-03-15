@@ -71,7 +71,7 @@ public class WaterfallDownloader {
 
 	public void downloadLatestWaterfall(File output, boolean log) throws IOException {
 		if (log) {
-			System.out.println("Fetching latest paper version...");
+			System.out.println("Fetching latest waterfall version...");
 		}
 		String version = getLatestVersion();
 		if (log) {
